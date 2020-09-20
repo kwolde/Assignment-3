@@ -1,0 +1,54 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    background-color: #EDEDED;
+}
+
+h3 {
+    color: #CC1C0D;
+    border-bottom: 1px solid #929CA4;
+    border-width: 100%;
+}
+
+body > p:first-of-type:first-letter{
+    font-size: 30px;
+}
+
+.solution {
+    color: #CC1C0D;
+    font-weight: bold;
+}
+
+#testimonial1, #testimonial2 {
+    font-style: italic;
+    margin-left: 50px;
+}
+
+a[href^='http']:link {
+    color: #CC1C0D;
+}
+
+a[href^='http']:hover {
+    color: #83140a;
+}
+
+a[href^='http']:active {
+    color: #a55a53;
+}
+
+a[href^='http']:visited {
+    color: #490a04;
+}
+
+li {
+    list-style: none;
+}
+
+li:first-of-type {
+    color: blue;
+}
+
+li:last-of-type {
+    color: red;
+}
